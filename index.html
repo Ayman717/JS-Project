@@ -1,0 +1,261 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+
+        <nav id="nav">
+            <div class="container">
+              <div class="parent">
+                <div class="logo">
+                  <a href="index.html">Bakery</a>
+                </div>
+      
+                <ul id="ul">
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="about.html">About</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" class="contact">Contact Us</a>
+                  </li>
+                    <div class="responsive-cart">
+    
+                      <div class="cart ">
+                        <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        <div class="count"></div>
+                      </div>
+                      <button class="btn-nav"></button>
+                    </div>
+                </ul>
+              </div>
+            </div>
+            <section class="drop-nav">
+              <div class="container">
+                <div class="drop-down">
+                  <a href="index.html"><div>Home</div></a>
+                   <a href="about.html"><div>About</div></a>
+                   <a href="contact.html" ><div class="last contact">Contact Us</div></a>
+                 </div>
+              </div>
+            </section>
+          </nav>
+          <a href="#">
+            <div id="backUp" class="btn-flow">
+              <i class="up fa-solid fa-chevron-up"></i>
+            </div>
+          </a>
+
+          <section id="section1">
+
+              <div class="slideshow-container">
+                  <div class="mySlides ">
+                      <img src="ayman/b1.jpg" style="width:100%; ">
+                      
+                    </div>
+                    
+                    <div class="mySlides ">
+                        <img src="ayman/b2.jpg" style="width:100%;">
+                        
+                        
+                    </div>
+                    
+                    <div class="mySlides ">
+                        <img src="ayman/b3.jpg" style="width:100%;">
+                        
+                    </div>
+                    
+                    <div class="mySlides ">
+                        <img src="ayman/b4.jpg" style="width:100%;">
+                        
+                    </div>
+                    
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮ </a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                </div>
+            </section>
+
+
+
+
+
+            <div class="four-buttons" id="four-buttons">
+              <button class="four-btns active"id="all-btn" onclick="filterSelection('all')">Show All</button>
+              <button class="four-btns" onclick="filterSelection('croissant')">croissant</button>
+              <button class="four-btns" onclick="filterSelection('Cake')">Cakes</button>
+              <button class="four-btns" onclick="filterSelection('pizza')">Pizaa</button>
+              <button class="four-btns" onclick="filterSelection('cookies')">Cookies</button>
+            </div>
+            <!--End section-2 about-->
+    
+            <!--start section-3 cards& buttons-->
+            <div id="cards">
+    
+              <div class=" card croissant">
+                <img src="./ayman/croissant-1.jpg" >
+                <p class="price">$49.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class=" card  pizza">
+                <img src="./ayman/pizza-1.jpg" >
+                <p class="price">$19.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class=" card Cake">
+                <img src="./ayman/cake-1.jpg" >
+                <p class="price">$29.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class="card cookies">
+                <img src="./ayman/cooki-1.jpg" >
+                <p class="price">$19.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class="card Cake">
+                <img src="./ayman/cake-2.jpg" >
+                <p class="price">$39.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class="card croissant">
+                <img src="./ayman/croissant-2.jpg" >
+                <p class="price">$39.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class="card pizza">
+                <img src="./ayman/pizza-2.jpg" >
+                <p class="price">$11.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class="card croissant">
+                <img src="./ayman/croissant-3.jpg" >
+                <p class="price">$69.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class="card cookies">
+                <img src="./ayman/cooki-2.jpg" >
+                <p class="price">$19.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class="card pizza">
+                <img src="./ayman/pizza-3.jpg" >
+                <p class="price">$16.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class="card Cake">
+                <img src="./ayman/cake-3.jpg" >
+                <p class="price">$19.99</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+              <div class="card cookies">
+                <img src="./ayman/cooki-3.jpg" >
+                <p class="price">$12.10</p>
+                <button id="cack-btn" class="addToCart">Add to Cart</button>
+              </div>
+    
+            </div>
+    
+
+
+
+
+            <section  class="section2about">
+              <div >
+                <img  src="./pizza/b7.jpg"  >
+              </div>
+              <div style=" margin-top: 50px;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam enim a et, eum blanditiis, 
+                perspiciatis rerum dolore aperiam praesentium corrupti id iste distinctio adipisci reiciendis illum ipsum reprehenderit? Tempore, quo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, tenetur suscipit reiciendis aliquid assumenda, ducimus adipisci maxime est rem architecto illum? Hic exercitationem vero sit, 
+                mollitia minus culpa nemo vitae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, tenetur suscipit reiciendis aliquid assumenda, ducimus adipisci maxime est rem architecto illum? Hic exercitationem vero sit, 
+                mollitia minus culpa nemo vitae.
+              </div>
+            </section>
+
+
+            <footer>
+              <div class="container">
+                <div class="item ">
+                  <div class="about ">
+                    <h3>About us</h3>
+                    <p>
+                      I am text block. Click edit button to change this text. Lorem
+                      ipsum dolor sit amet, consectetur. I am text block. Click edit
+                      button to change this text. Lorem ipsum dolor sit amet,
+                      consectetur.
+                    </p>
+                    <p>We are the champions! We are the most amazing theme of all time, yeah.</p>
+                  </div>
+                  <div class="contact-details" >
+                      
+                      <div class="layer">
+              
+                      <h3>Contact Details</h3>
+                      <ul class="fa-ul">
+                          <li><span class="fa-li"><i class="fa-solid fa-location-dot"></i></span>: Manchester Road 123-78B, Silictown 7854MD, Great Country</li>
+                          <li><span class="fa-li"><i class="fa-solid fa-phone"></i></span>: 01022552659</li>
+                          <li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span>aymansdik@gmail.com</li>
+                          <li><span class="fa-li"><i class="fa-solid fa-earth-americas"></i></span>: hello@sitename.com</li>
+                        </ul>
+                      </div>
+                </div>
+                </div>
+            </div>
+        </footer>
+        <footer class="item-two">
+            <p>Copyright 2017 All rights reserved.</p>
+            <div class="icons">
+                <div class="contain">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </div>
+                <div class="contain">
+                  <a href="https://www.google.com/" target="_blank">
+                    <i class="fa-brands fa-google"></i>
+                  </a>
+                </div>
+                <div class="contain">
+                  <a href="https://www.youtube.com/" target="_blank">
+                    <i class=" youtube fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+                <div class="contain ">
+                  <a href="https://twitter.com/" target="_blank">
+                    <i class="twitter fa-brands fa-twitter"></i>    
+                  </a>
+                </div>
+            </div>
+        </footer>
+                            <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+        <script src="index.js"></script>
+    </body>
+    </html>

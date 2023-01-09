@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav id="nav">
+        <div class="container">
+          <div class="parent">
+            <div class="logo">
+              <a href="index.html">Bakery</a>
+            </div>
+  
+            <ul id="ul">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="about.html">About</a>
+              </li>
+              <li>
+                <a href="contact.html" class="contact">Contact Us</a>
+              </li>
+            </ul>
+            <button class="btn-nav"></button>
+          </div>
+        </div>
+        <section class="drop-nav">
+          <div class="container">
+            <div class="drop-down">
+              <a href="index.html"><div>Home</div></a>
+               <a href="about.html"><div>About</div></a>
+               <a href="contact.html" ><div class="last contact">Contact Us</div></a>
+             </div>
+          </div>
+        </section>
+      </nav>
+
+
+    <div class="container">
+        <form action="" class="w-80 m-auto position-relative">
+          <table class="w-100 m-auto shadow">
+            <tr>
+              <td class="font-size">Name</td>
+              <td colspan="3">
+                <input
+                  class="input w-100"
+                  type="text"
+                  id="userName"
+                  name="userName"
+                  placeholder="enter username.."
+                  
+                />
+              </td>
+              <td><p id="errorName"></p></td>
+            </tr>
+  
+            <tr>
+              <td class="font-size">Email</td>
+              <td colspan="3">
+                <input
+                  class="input w-100"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="enter email.."
+                  on
+                />
+              </td>
+              <td><p id="errorEmail"></p></td>
+            </tr>
+            <tr>
+              <td class="font-size">Text Area</td>
+              <td colspan="3">
+                <textarea name="password" id="password" placeholder="Message..." class=" textarea input  w-100" ></textarea>
+                <!-- <input
+                  class="input w-100"
+                  type="text"
+                  id="password"
+                  name="password"
+                  placeholder="enter password.."
+                /> -->
+              </td>
+              <td><p id="errorPassword"></p></td>
+            </tr>
+          
+          </table>
+          <div class="containBtn">
+  
+              
+              <button id="submit" type="submit" class="btn m">
+                  submit
+              </button>
+              <button type="reset" class="btn2 ">
+                  reset
+              </button>
+          </div>
+        </form>
+      </div>
+
+
+
+      <footer>
+        <div class="container">
+          <div class="item ">
+            <div class="about ">
+              <h3>About us</h3>
+              <p>
+                I am text block. Click edit button to change this text. Lorem
+                ipsum dolor sit amet, consectetur. I am text block. Click edit
+                button to change this text. Lorem ipsum dolor sit amet,
+                consectetur.
+              </p>
+              <p>We are the champions! We are the most amazing theme of all time, yeah.</p>
+            </div>
+            <div class="contact-details" >
+                
+                <div class="layer">
+        
+                <h3>Contact Details</h3>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fa-solid fa-location-dot"></i></span>: Manchester Road 123-78B, Silictown 7854MD, Great Country</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-phone"></i></span>: 01022552659</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span>aymansdik@gmail.com</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-earth-americas"></i></span>: hello@sitename.com</li>
+                  </ul>
+                </div>
+          </div>
+          </div>
+      </div>
+  </footer>
+  <footer class="item-two">
+      <p>Copyright 2017 All rights reserved.</p>
+      <div class="icons">
+          <div class="contain">
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="contain">
+            <a href="https://www.google.com/" target="_blank">
+              <i class="fa-brands fa-google"></i>
+            </a>
+          </div>
+          <div class="contain">
+            <a href="https://www.youtube.com/" target="_blank">
+              <i class=" youtube fa-brands fa-youtube"></i>
+            </a>
+          </div>
+          <div class="contain ">
+            <a href="https://twitter.com/" target="_blank">
+              <i class="twitter fa-brands fa-twitter"></i>    
+            </a>
+          </div>
+      </div>
+  </footer>
+    <script src="contact.js"></script>
+</body>
+</html>
